@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+ 
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+using std::equal;
+ 
+bool is_palindrom(const string &s) {
+  return equal(s.begin(), s.end(), s.rbegin());
+}
+ 
+int main() {
+  string palindrom;
+  while(cout << "Enter palindrom: ", cin >> palindrom) {
+    if (is_palindrom(palindrom))
+      cout << " --- Ok. This is palindrom" << endl;
+    else
+      cout << " --- No. This is not palindrom" << endl;
+  }
+}
