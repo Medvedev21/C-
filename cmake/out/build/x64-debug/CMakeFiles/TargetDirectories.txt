@@ -1,0 +1,3 @@
+C:/Users/Fenomen21/Desktop/Павлов/cmake/out/build/x64-debug/CMakeFiles/cmake.dir
+C:/Users/Fenomen21/Desktop/Павлов/cmake/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Fenomen21/Desktop/Павлов/cmake/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
