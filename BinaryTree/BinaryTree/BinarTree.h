@@ -125,4 +125,15 @@ private:
 		showTree(currItem->getLeft(), indent + "  ");
 		showTree(currItem->getRight(), indent + "  ");
 	}
+	void changeItem((BinaryTreeItem<T>* currItem, T itm) //с 88 по 105 поиск значения, с 107-114 описание рекурсии с 116-118 метод вызова рекурсии поиска
+			//а дальше мы сравниваем значения и заменяем их
+    {
+        while(true)
+        {
+            if (itm == findItemRecursionStart(T itm);
+                {
+                   currItem->item = itm; 
+                }
+        }
+    } 
 };
